@@ -20,7 +20,7 @@ class Solution {
        ListNode curr = head;
        //second half list pointer
        ListNode dummy = newNode;
-       while(head!=null && dummy!=null){
+       while(curr !=null && dummy!=null){
              //pointer to store next element of curr(1st half list)
            ListNode temp = curr.next;
            //link element of 1st half to that of second half
